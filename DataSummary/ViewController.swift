@@ -34,7 +34,7 @@ class ViewController: UITableViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("Pushed")
+        //print("Pushed")
         refreshC = UIRefreshControl()
         refreshC.attributedTitle = NSAttributedString(string: "Fetching data...")
         refreshC.tintColor = UIColor.orange
